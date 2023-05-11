@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
+        <h1>Login</h1> 
+        <form action="cadastro.php" method="post">
+
+            <p>
+                <label for="iuser">Usuário</label> <br>
+                <input type="text" name="user" id="user" required placeholder="Nome de Usuário">
+            </p>
+
+            <p>
+                <label for="isenha">Senha</label> <br>
+                <input type="password" name="senha" id="isenha" required placeholder="Digite sua senha">
+            </p>
+
+            <p>
+                <input id="enter" type="submit" value="Enter">
+            </p>
+            
+        </form>
+
+        <p>Não está cadastrado?</p>
+        <p><a href="#">Cadastra-se</a></p>
+
+        <h3>Logar com</h3>
+        <section>
+           <a href="#"><img src="imagens/icone facebook.png" alt=""></a>
+           <a href="#"><img src="imagens/icone google.png" alt=""></a>
+           <a href="#"><img src="imagens/icone apple.png" alt=""></a>
+        </section>
+    </main>
+
+    
+</body>
+</html>

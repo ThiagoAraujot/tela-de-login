@@ -9,6 +9,7 @@
     width: 0px;
     height: 0px;
 }
+
 body {
     background-image: url(imagens/fundo002.jpg);
     background-size: cover;
@@ -29,6 +30,7 @@ main {
     box-shadow: 3px 4px 14px 1px rgba(0, 0, 0, 0.747);
     font-size: 18px;
     margin: 20px;
+    
 }
 main p {
     margin: 10px;
@@ -75,6 +77,3 @@ img:hover {
 section {
     margin-top: 15px;
 }
-
-
-

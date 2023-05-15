@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 600px) and (max-width: 728px) {
+@media screen and (max-width: 768px) {
     main {
         width: 500px;
-        margin: 10px;
         display: block;
         align-items: center;
         justify-content: center;
         background-color: lightgray;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }

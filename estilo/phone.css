@@ -2,12 +2,17 @@
 
 @media screen and (max-width: 768px) {
     main {
-        width: 500px;
+        width: 80vw;
+        height: 90vh;
         display: block;
         align-items: center;
         justify-content: center;
         background-color: lightgray;
         margin-left: 20px;
         margin-right: 20px;
+    }
+    input#enter {
+        padding: 20px;
+        font-size: 1.5em;
     }
 }

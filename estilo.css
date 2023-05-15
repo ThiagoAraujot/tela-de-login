@@ -9,12 +9,6 @@
     width: 0px;
     height: 0px;
 }
-@media(max-width: 600px) {
-    main {
-        width: 350px;
-        margin: 10px;
-    }
-}
 body {
     background-image: url(imagens/fundo002.jpg);
     background-size: cover;
